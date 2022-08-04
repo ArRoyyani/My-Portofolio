@@ -1,0 +1,24 @@
+.container .navbar-brand {
+  font-size: 30px;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+#projects img {
+  height: 230px;
+}
+
+footer a {
+  text-decoration: none;
+}
