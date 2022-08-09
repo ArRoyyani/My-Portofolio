@@ -10,6 +10,9 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -27,13 +30,13 @@
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link active" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link active" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link active" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -65,10 +68,10 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui excepturi, ea tempore dolores illo quam dolorum illum voluptatibus a, vel amet. Inventore dicta delectus harum rem, reprehenderit repellat officiis labore?</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam blanditiis assumenda eius? Doloremque possimus, vitae pariatur excepturi inventore unde blanditiis reiciendis quod minus perferendis temporibus enim illum
               molestias et maiores?
@@ -96,7 +99,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500">
               <a href="https://unsplash.com/photos/TQYTWfN1b7M?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank">
                 <img src="img/projects/1.jpg" alt="Project satu" class="card-img-top" />
               </a>
@@ -110,7 +113,7 @@
           </div>
 
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
               <a href="https://unsplash.com/photos/Mf23RF8xArY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank">
                 <img src="img/projects/2.jpg" alt="Project dua" class="card-img-top" />
               </a>
@@ -124,7 +127,7 @@
           </div>
 
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
               <a href="https://unsplash.com/photos/Mf23RF8xArY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank">
                 <img src="img/projects/3.jpg" alt="Project tiga" class="card-img-top" />
               </a>
@@ -138,8 +141,8 @@
           </div>
 
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <a href="https://unsplash.com/photos/Mf23RF8xArY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
+              <a href="https://unsplash.com/photos/EHLd2utEf68" target="_blank">
                 <img src="img/projects/4.jpg" alt="Project empat" class="card-img-top" />
               </a>
 
@@ -153,7 +156,7 @@
           </div>
 
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
               <a href="https://unsplash.com/photos/Mf23RF8xArY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank">
                 <img src="img/projects/5.jpg" alt="Project lima" class="card-img-top" />
               </a>
@@ -179,6 +182,70 @@
     </section>
     <!-- Akhir Projects -->
 
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/gallery/1.jpg" alt="Gambar 1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/gallery/2.jpg" alt="Gambar 2" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/gallery/3.jpg" alt="Gambar 3" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/gallery/4.jpg" alt="Gambar 4" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/gallery/5.jpg" alt="Gambar 5" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/gallery/6.jpg" alt="Gambar 6" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/gallery/7.jpg" alt="Gambar 7" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/gallery/8.jpg" alt="Gambar 8" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/gallery/9.jpg" alt="Gambar 9" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/gallery/10.jpg" alt="Gambar 10" class="img-fluid gallery-img" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Gallery -->
+
     <!-- Contact -->
     <section id="contact">
       <div class="container">
@@ -189,20 +256,20 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-6">
-            <form>
+            <form name="arroyyani-contact-form">
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="email" class="form-control" id="name" aria-describedby="name" />
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
               </div>
 
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" />
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
               </div>
 
               <div class="mb-3">
                 <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
+                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
               </div>
 
               <button type="submit" class="btn btn-primary">Kirim</button>
@@ -228,5 +295,36 @@
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll(".gallery-img");
+
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = "fade-down";
+        img.dataset.aosDelay = i * 100;
+      });
+
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
+
+    <script src="htpps://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script>
+      gsap.from(".jumbotron img", { duration: 1, y: -100, opacity: 0 });
+    </script>
+
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycbyBgw1zZNGg2rGmdEmF8dvTJc_GWHX4abR2idTTSd9mfQHg3SRKIlY-1f8YtvXM5SxA/exec";
+      const form = document.forms["arroyyani-contact-form"];
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => console.log("Success!", response))
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
   </body>
 </html>

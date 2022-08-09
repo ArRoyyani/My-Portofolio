@@ -22,3 +22,12 @@ section {
 footer a {
   text-decoration: none;
 }
+
+.gallery-img {
+  width: 100%;
+  height: 200px;
+}
+
+#gallery .row > * {
+  padding: 0;
+}
